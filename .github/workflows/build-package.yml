@@ -9,7 +9,7 @@ on:
       linuxBuildArgs:
         type: string
         required: false
-        default: '--desktop gpu --opencv cmake'
+        default: '--desktop cpu --opencv cmake'
         description: Build options for Linux Build (skip if empty)
       androidBuildArgs:
         type: string
